@@ -1,4 +1,5 @@
 [
   "stringQuestions/test_string_questions.py::test_print_dups::test_a_few_strings",
-  "stringQuestions/test_string_questions.py::test_print_dups::test_empty_string"
+  "stringQuestions/test_string_questions.py::test_is_anagram::test_a_few_strings",
+  "stringQuestions/test_string_questions.py::test_first_nonrepeated_character::test_a_few_strings"
 ]
