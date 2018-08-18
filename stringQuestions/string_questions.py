@@ -49,3 +49,11 @@ def first_nonrepeated_character(s):
     for c in s:
         if letterCounts[c] == 1: return c
     return ""
+
+def recursive_string_reverse(s):
+    # lol return s[::-1]
+    if len(s) < 2:
+        return s
+    # put last char first, put the reversed
+    # version of the rest of the string after it
+    return s[-1:] + recursive_string_reverse(s[:-1])
