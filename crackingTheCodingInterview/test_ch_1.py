@@ -12,11 +12,11 @@ class test_ch_1(unittest.TestCase):
         self.assertEqual(unique_characters("edcb"), True)
 
     def test_c_reverse(self):
-        self.assertEqual(c_reverse("a "), "a ")
-        self.assertEqual(c_reverse("aa "), "aa ")
-        self.assertEqual(c_reverse("ab "), "ba ")
-        self.assertEqual(c_reverse("cba "), "abc ")
-        self.assertEqual(c_reverse("yzxa "), "axzy ")
+        self.assertEqual(c_reverse("a"), "a")
+        self.assertEqual(c_reverse("aa"), "aa")
+        self.assertEqual(c_reverse("ab"), "ba")
+        self.assertEqual(c_reverse("cba"), "abc")
+        self.assertEqual(c_reverse("yzxa"), "axzy")
 
 if __name__ == '__main__':
     unittest.main()
