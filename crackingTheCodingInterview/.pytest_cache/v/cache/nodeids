@@ -1,4 +1,6 @@
 [
   "test_ch_1.py::test_ch_1::test_c_reverse",
-  "test_ch_1.py::test_ch_1::test_unique_characters"
+  "test_ch_1.py::test_ch_1::test_unique_characters",
+  "test_ch_2.py::test_ch_2::test_remove_dups",
+  "test_ch_9.py::test_ch_1::test_copy_sorted_buffer"
 ]
