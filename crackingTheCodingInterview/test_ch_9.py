@@ -32,22 +32,7 @@ def random_numbers(n, seed=time.time_ns()):
         retArray.append(seed)
     return retArray
 
-# this one's for generating random strings of lowercase letters
-def random_letters(n, seed=time.time_ns()):
-    retArray = []
-    for i in range(n):
-        seed = [c for c in str(seed)]
-        locOfMid = int(len(seed)/2)
-        mid1 = int("".join(seed[locOfMid - 2:locOfMid]))
-        mid2 = int("".join(seed[locOfMid:locOfMid + 2]))
-        del seed[locOfMid - 2:locOfMid]
-        seed.append(str(mid1*mid2))
-        seed = int("".join(seed))
-        retArray.append(seed % 26)
-    d = {i:c for i, c in enumerate("abcdefghijklmnopqrstuvwxyz")}
-    return "".join([d[letterNum] for letterNum in retArray])
-
-class test_ch_1(unittest.TestCase):
+class test_ch_9(unittest.TestCase):
     def test_copy_sorted_buffer(self):
         rand1 = random_numbers(3)
         rand2 = random_numbers(2)
