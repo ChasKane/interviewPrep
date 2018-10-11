@@ -44,4 +44,3 @@ def copy_sorted_buffer(A, B):
         j -= 1
     return A
 
-def 

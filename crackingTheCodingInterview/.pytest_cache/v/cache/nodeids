@@ -1,6 +1,11 @@
 [
   "test_ch_1.py::test_ch_1::test_c_reverse",
   "test_ch_1.py::test_ch_1::test_unique_characters",
+  "test_ch_4.py::test_ch_4::test_in_order_successor",
   "test_ch_4.py::test_ch_4::test_is_balanced",
+  "test_ch_4.py::test_ch_4::test_layerize",
+  "test_ch_4.py::test_ch_4::test_make_from_array_like",
+  "test_ch_4.py::test_ch_4::test_make_from_list",
+  "test_ch_4.py::test_ch_4::test_path_exists",
   "test_ch_9.py::test_ch_9::test_copy_sorted_buffer"
 ]
